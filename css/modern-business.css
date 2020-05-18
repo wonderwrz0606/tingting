@@ -8,7 +8,7 @@ body {
 }
 
 .carousel-item {
-  height: 65vh;
+  height: 80vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -19,8 +19,4 @@ body {
 
 .portfolio-item {
   margin-bottom: 30px;
-}
-
-.ml-1 {
-  margin-left: ($spacer * .25) !important;
 }

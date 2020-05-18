@@ -10,21 +10,26 @@
 
   <title>Ting's Portfolio</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Bootstrap core CSS -->
+   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Iconic Font -->
-  <link href="font/font/css/open-iconic-bootstrap.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/modern-business.css" rel="stylesheet">
+   <!-- Magnific Popup core CSS file -->
+   <link rel="stylesheet" href="css/magnific-popup.css">
+ 
+   <!-- Iconic Font -->
+   <link href="font/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+ 
+   <!-- Custom styles for this template -->
+   <link href="css/modern-business.css" rel="stylesheet">
+   <link href="css/custom.css" rel="stylesheet">
+ 
 
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar fixed-top navbar-expand-lg fixed-top navbar-light bg-white justify-content-center">
+  <nav class="navbar fixed-top navbar-expand-lg fixed-top navbar-light justify-content-between">
     <a class="navbar-brand ml-5 pl-5" href="#">
       <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
     
@@ -48,7 +53,7 @@
   </nav>
 
   <header>
-    <div class="d-flex justify-content-center text-muted">
+    <div id="header-block" class="d-flex justify-content-center text-muted">
       <div style="padding: 5%  0px 50px 0px; max-width: 45%; font-size: 48px;">
         <p style="font-weight: 500;" class="pt-3">Hi! My name is <span class="text-dark">Tingting Ye.</span> I'm a <span class="text-dark">product designer,</span> a <span class="text-dark">problem solver</span> from <span class="text-dark" style="padding-right: 5px;">UX</span>perspective.</p> 
         <a style="font-size: 16px;text-transform: uppercase;" class="text-dark" href="about.html">My Resume</a>
@@ -68,46 +73,54 @@
     <!-- Section One -->
     <div class="row mb-5 justify-content-md-center" style="height: 326px;">
       <div class="col col-9 mt-3 mb-3" style="border: 1px; border-radius: 20px;">
-        <img src="img/project_mainimg1.png" alt="">
-      </div>
-    </div>
-    <div class="row mb-5 mt-5 ml-5" style="height: 326px;">
-      <div class="col col-9 ml-5 mt-3 mb-3" style="border: 1px; border-radius: 20px;">
-        <img src="img/project_mainimg2.png" alt="">
+        <a name="image-zoomer" href="img/project_mainimg1.png" class="with-caption image-link">
+          <img src="img/project_mainimg1.png" alt="">
+       </a>
       </div>
     </div>
 
-    <!-- Section Two -->
-    <div class="row mb-5 mt-5 justify-content-md-center" style="height: 326px;">
-      <div class="col col-9 mt-3 mb-3" style="border: 1px; border-radius: 20px;">
-        <div class="row">
-          <img class="col col-12" src="img/project_mainimg3.png" alt="" >
-        </div>
-      </div>
-      </div>
-    </div>
+     <!-- Section Two -->
     <div class="row mb-5 mt-5 ml-5" style="height: 326px;">
       <div class="col col-9 ml-5 mt-3 mb-3" style="border: 1px; border-radius: 20px;">
-        <div class="row">
-          <img class="col col-12" src="img/project_mainimg4.png" alt="" >
-        </div>
-      </div>
+        <a name="image-zoomer" href="img/project_mainimg2.png" class="with-caption image-link">
+          <img src="img/project_mainimg2.png" alt="">
+       </a>
       </div>
     </div>
 
     <!-- Section Three -->
-    <div class="row mb-5 mt-5 justify-content-md-center" style="height: 326px;">
+    <div class="row mb-5 justify-content-md-center" style="height: 326px;">
       <div class="col col-9 mt-3 mb-3" style="border: 1px; border-radius: 20px;">
-        <div class="row">
-          <img class="col col-12" src="img/project_mainimg5.png" alt="" >
-        </div>
+        <a name="image-zoomer" href="img/project_mainimg1.png" class="with-caption image-link">
+          <img src="img/project_mainimg1.png" alt="">
+       </a>
       </div>
     </div>
+
+     <!-- Section Four -->
     <div class="row mb-5 mt-5 ml-5" style="height: 326px;">
       <div class="col col-9 ml-5 mt-3 mb-3" style="border: 1px; border-radius: 20px;">
-        <div class="row">
-          <img class="col col-12" src="img/project_mainimg6.png" alt="">
-        </div>
+        <a name="image-zoomer" href="img/project_mainimg2.png" class="with-caption image-link">
+          <img src="img/project_mainimg2.png" alt="">
+       </a>
+      </div>
+    </div>
+
+    <!-- Section Five -->
+    <div class="row mb-5 justify-content-md-center" style="height: 326px;">
+      <div class="col col-9 mt-3 mb-3" style="border: 1px; border-radius: 20px;">
+        <a name="image-zoomer" href="img/project_mainimg1.png" class="with-caption image-link">
+          <img src="img/project_mainimg1.png" alt="">
+       </a>
+      </div>
+    </div>
+
+     <!-- Section Six -->
+    <div class="row mb-5 mt-5 ml-5" style="height: 326px;">
+      <div class="col col-9 ml-5 mt-3 mb-3" style="border: 1px; border-radius: 20px;">
+        <a name="image-zoomer" href="img/project_mainimg2.png" class="with-caption image-link">
+          <img src="img/project_mainimg2.png" alt="">
+       </a>
       </div>
     </div>
 
@@ -233,12 +246,12 @@
           </div>
         </div>
       </div>
-    <!-- </div> -->
+    </div> -->
   </div>
   <!-- /.container -->
 
   <!-- Footer -->
-  <footer style="" class="my-10 py-5">
+  <footer class="my-10 py-5">
     <div class="container">
       <p class="m-0 text-center text-dark" style="font-size: 18px; font-weight: bold;">GET IN TOUCH</p>
       <br><br>
@@ -258,6 +271,13 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Magnific Popup core JS file -->
+  <script src="js/magnific-popup.js"></script>
+
+  <!-- Custom js -->
+  <script src="js/custom.js"></script>
+  
 
 </body>
 
