@@ -1,3 +1,21 @@
+body {
+  padding-top: 56px;
+}
+
+.carousel-item {
+  height: 80vh;
+  min-height: 500px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
 .scrolled {
     background: rgba(204, 204, 204, 0) !important;
 }
@@ -103,21 +121,45 @@
     justify-content: center!important;
   }
 
-  .section-carousel {
+  /* .section-carousel {
     padding: 0 !important;
-  }
+  } */
 
-  .section-video {
+  /* .section-video {
     padding: 0 !important;
-  }
+  } */
 }
 
-.index-main-block {
+.homepage-main-block-one,
+.homepage-main-block-three,
+.homepage-main-block-four,
+.homepage-main-block-five,
+.homepage-main-block-six {
   transition: 0.3s;
 }
 
-.index-main-block:hover {
-  border: 30px solid #190aff;
+.homepage-main-block-one:hover {
+  border: 20px solid #2980FF;
+}
+
+.homepage-main-block-three:hover {
+  border: 20px solid #E63238;
+}
+
+.homepage-main-block-four:hover {
+  border: 20px solid #185D57;
+}
+
+.homepage-main-block-five:hover {
+  border: 20px solid #F8E71C;
+}
+
+.homepage-main-block-six:hover {
+  border: 20px solid #1A1F71;
+}
+
+.my-resume-link:hover{
+  text-decoration: none;
 }
 
 /* For desktop: */
