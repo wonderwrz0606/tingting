@@ -6,6 +6,7 @@ body {
 
 p {
  margin-bottom: 20px !important;
+ color: #4A4A4A;
 }
 
 .carousel-item {
@@ -170,6 +171,25 @@ p {
 
 .roboto-bold {
   font-family: robotoBold;
+}
+
+.roboto-italic {
+  font-family: robotoItalic;
+}
+
+.w-5 {
+  width: 5%!important;
+}
+
+.w-40 {
+  width: 40%!important;
+}
+
+.w-55 {
+  width: 55%!important;
+}
+.w-70 {
+  width: 70%!important;
 }
 
 
