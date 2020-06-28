@@ -9,6 +9,10 @@ p {
  color: #4A4A4A;
 }
 
+.text-dark {
+  color: #000000!important;
+}
+
 .carousel-item {
   height: 80vh;
   min-height: 500px;
@@ -175,6 +179,10 @@ p {
 
 .roboto-italic {
   font-family: robotoItalic;
+}
+
+.roboto-medium {
+  font-family: robotoMedium;
 }
 
 .w-5 {
