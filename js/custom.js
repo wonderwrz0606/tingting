@@ -35,3 +35,29 @@ image: {
         verticalFit: false
     }
 });
+
+/**
+* Validation function for Facebook page
+*/
+$(document).ready(function(){
+    $("#access_code_button").click(function(){
+      validateAccessCode();
+    });
+
+    $('#access_code_input').keypress(function (e) {
+      if (e.which == 13) {
+        validateAccessCode();
+        return false;    //<---- Add this line
+    }
+    });
+});
+
+function validateAccessCode() {
+  $inputContainer = $("#access_code_input");
+  if($inputContainer.val() == "0106") {
+    $('#facebook-access-block').css("display", "none");
+    $('#facebook-main-block').css("display", "block");
+  }
+
+  $inputContainer.val('');
+}
